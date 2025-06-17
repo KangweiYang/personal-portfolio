@@ -44,11 +44,11 @@
 2. **热管理**
   * 线性稳压芯片需要加装小型散热片
 
-![主动均衡电容原理图] (./AWCapGroup_sche.png)
+![主动均衡电容原理图] (https://github.com/KangweiYang/personal-portfolio/blob/main/AWCapGroup_sche.png?raw=true)
 
-![主动均衡电容PCB图] (./AWCapGroup_pcb.png)
+![主动均衡电容PCB图] (https://github.com/KangweiYang/personal-portfolio/blob/main/AWCapGroup_pcb.png?raw=true)
 
-![主动均衡电容3D渲染图] (./AWCapGroup_3d.png)
+![主动均衡电容3D渲染图] (https://github.com/KangweiYang/personal-portfolio/blob/main/AWCapGroup_3d.png?raw=true)
 
 
 ---
@@ -82,11 +82,11 @@
 * 演示视频：https://www.bilibili.com/video/BV1Qg5qz3Evf/
 
   
-![无控飞镖电源板原理图] (./HALL_sche.png)
+!(https://github.com/KangweiYang/personal-portfolio/blob/main/HALL_sche.png?raw=true)
 
-![无控飞镖电源板PCB图] (./HALL_board.png)
+![无控飞镖电源板PCB图] (https://github.com/KangweiYang/personal-portfolio/blob/main/HALL_board.png?raw=true)
 
-![无控飞镖电源板3D渲染图] (./HALL_3d.png)
+![无控飞镖电源板3D渲染图] (https://github.com/KangweiYang/personal-portfolio/blob/main/HALL_3d.png?raw=true)
 
 ---
 ### 飞镖架STM32拓展板 2024.09-至今
@@ -103,6 +103,6 @@
     3. 过流保护
     4. 浪涌抑制
 
-![飞镖架STM32拓展板PCB图] (./MAINcontrol_PCB.png)
+![飞镖架STM32拓展板PCB图] (https://github.com/KangweiYang/personal-portfolio/blob/main/MAINcontrol_PCB.png?raw=true)
 
-![飞镖架STM32拓展板3D渲染图] (./MAINcontrol_3D.png)
+![飞镖架STM32拓展板3D渲染图] (https://github.com/KangweiYang/personal-portfolio/blob/main/MAINcontrol_3D.png?raw=true)
