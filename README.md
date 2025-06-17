@@ -44,9 +44,11 @@
 2. **热管理**
   * 线性稳压芯片需要加装小型散热片
 
-![主动均衡电容原理图] (/AWCapGroup_sche.png)
-![主动均衡电容PCB图] (/AWCapGroup_pcb.png)
-![主动均衡电容3D渲染图] (/AWCapGroup_3d.png)
+![主动均衡电容原理图] (./AWCapGroup_sche.png)
+
+![主动均衡电容PCB图] (./AWCapGroup_pcb.png)
+
+![主动均衡电容3D渲染图] (./AWCapGroup_3d.png)
 
 
 ---
@@ -80,9 +82,11 @@
 * 演示视频：https://www.bilibili.com/video/BV1Qg5qz3Evf/
 
   
-![无控飞镖电源板原理图] (/HALL_sche.png)
-![无控飞镖电源板PCB图] (/HALL_board.png)
-![无控飞镖电源板3D渲染图] (/HALL_3d.png)
+![无控飞镖电源板原理图] (./HALL_sche.png)
+
+![无控飞镖电源板PCB图] (./HALL_board.png)
+
+![无控飞镖电源板3D渲染图] (./HALL_3d.png)
 
 ---
 ### 飞镖架STM32拓展板 2024.09-至今
@@ -99,5 +103,6 @@
     3. 过流保护
     4. 浪涌抑制
 
-![飞镖架STM32拓展板PCB图] (/MAINcontrol_PCB.png)
-![飞镖架STM32拓展板3D渲染图] (/MAINcontrol_3D.png)
+![飞镖架STM32拓展板PCB图] (./MAINcontrol_PCB.png)
+
+![飞镖架STM32拓展板3D渲染图] (./MAINcontrol_3D.png)
