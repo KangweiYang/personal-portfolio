@@ -8,7 +8,6 @@
 
 * 将⼴城理开源的主动均衡电容组进⾏⼩型化，迭代3次后成功将PCB尺⼨优化⾄58*75mm 以下是为飞镖电源系统设计的**主动均衡电容组功能说明**，针对多电容串联场景的电压平衡与寿命优化方案：
 
----
 
 ### **主动均衡电容组功能设计**
 
@@ -16,19 +15,16 @@
 
 解决串联电容组因个体差异导致的**电压失衡问题**，防止单电容过充/过放，提升整体能量利用率与循环寿命。
 
----
 
 ### **技术实现方案**
 
-纯硬件实现，通过4个MOS管的拓扑来将每个电容分别在每个周期的一半去并联、另一半来串联
+纯硬件实现，通过4个MOS管的拓扑来将每个电容分别在每个周期的一半去并联、另一半来串联，并联时可以平衡不同电容之间的电压，串联时可以进行所有电容的充电与放电
 
 #### **关键性能参数**
 
 * **效率**：＞87%（2A均衡电流下）
 * **工作温度**：-20℃~65℃（满足赛场环境）
-* **均衡频率 **：20kHz
-
----
+* **均衡频率**：20kHz
 
 ### **应用收益**
 
@@ -41,19 +37,16 @@
 * **降低80%维护成本**
 避免因电压失衡导致的个别电容报废而需要拆开机器人修理的麻烦
 
----
-
 ### **工程适配要点**
 
 1. **空间占用**
-  * 整体模块尺寸≤58*75mm
+  * 整体模块尺寸仅为58*75mm
 2. **热管理**
   * 线性稳压芯片需要加装小型散热片
 
-
-[![AWCapGroup_sche.png](https://www.helloimg.com/i/2025/06/17/6851110be3529.png)](https://www.helloimg.com/i/2025/06/17/6851110be3529.png)
-[![AWCapGroup_pcb.png](https://www.helloimg.com/i/2025/06/17/6851110b5831e.png)](https://www.helloimg.com/i/2025/06/17/6851110b5831e.png)
-[![AWCapGroup_3d.png](https://www.helloimg.com/i/2025/06/17/6851110a2ad79.png)](https://www.helloimg.com/i/2025/06/17/6851110a2ad79.png)
+![主动均衡电容原理图] (/AWCapGroup_sche.png)
+![主动均衡电容PCB图] (/AWCapGroup_pcb.png)
+![主动均衡电容3D渲染图] (/AWCapGroup_3d.png)
 
 
 ---
@@ -85,9 +78,11 @@
 * 开源链接(含介绍):https://bbs.robomaster.com/article/714435
   * (工程文件)https://oshwhub.com/flxi/scurm2025-hotpot-dart-power
 * 演示视频：https://www.bilibili.com/video/BV1Qg5qz3Evf/
-[![HALL_sche.png](https://www.helloimg.com/i/2025/06/17/6851110ac7e3b.png)](https://www.helloimg.com/i/2025/06/17/6851110ac7e3b.png)
-[![HALL_board.png](https://www.helloimg.com/i/2025/06/17/68511112a2cf4.png)](https://www.helloimg.com/i/2025/06/17/68511112a2cf4.png)
-[![HALL_3d.png](https://www.helloimg.com/i/2025/06/17/68511111740e1.png)](https://www.helloimg.com/i/2025/06/17/68511111740e1.png)
+
+  
+![无控飞镖电源板原理图] (/HALL_sche.png)
+![无控飞镖电源板PCB图] (/HALL_board.png)
+![无控飞镖电源板3D渲染图] (/HALL_3d.png)
 
 ---
 ### 飞镖架STM32拓展板 2024.09-至今
@@ -104,5 +99,5 @@
     3. 过流保护
     4. 浪涌抑制
 
-[![MAINcontrol_PCB.png](https://www.helloimg.com/i/2025/06/17/6851110b4e52e.png)](https://www.helloimg.com/i/2025/06/17/6851110b4e52e.png)
-[![MAINcontrol_3D.png](https://www.helloimg.com/i/2025/06/17/6851110ce8a04.png)](https://www.helloimg.com/i/2025/06/17/6851110ce8a04.png)
+![飞镖架STM32拓展板PCB图] (/MAINcontrol_PCB.png)
+![飞镖架STM32拓展板3D渲染图] (/MAINcontrol_3D.png)
